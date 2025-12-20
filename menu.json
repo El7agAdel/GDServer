@@ -1,0 +1,568 @@
+{
+  "categories": [
+    {
+      "id": "Hot Coffee",
+      "name": "Hot Coffee",
+      "description": "Rich and bold espresso-based beverages"
+    },
+    {
+      "id": "Hot Non-Coffee",
+      "name": "Hot Non-Coffee",
+      "description": "Warm non-coffee beverages"
+    },
+    {
+      "id": "Iced Coffee",
+      "name": "Iced Coffee",
+      "description": "Refreshing iced coffee beverages"
+    },
+    {
+      "id": "Iced Non-Coffee",
+      "name": "Iced Non-Coffee",
+      "description": "Refreshing non-coffee beverages"
+    },
+    {
+      "id": "Coffee Frappes",
+      "name": "Coffee Frappes",
+      "description": "Blended coffee frappe drinks"
+    },
+    {
+      "id": "Non-Coffee Frappes",
+      "name": "Non-Coffee Frappes",
+      "description": "Blended non-coffee frappe drinks"
+    },
+    {
+      "id": "Milkshakes",
+      "name": "Milkshakes",
+      "description": "Creamy milkshake beverages"
+    },
+    {
+      "id": "Signature Drinks",
+      "name": "Signature Drinks",
+      "description": "Unique signature coffee creations"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "iced-coffee-35",
+      "name": "Ice Latte 14 oz",
+      "category": "Iced Coffee",
+      "description": "Ice Latte 14 oz",
+      "price": 95
+    },
+    {
+      "id": "iced-coffee-36",
+      "name": "Ice Spanish Pecan 14 oz",
+      "category": "Iced Coffee",
+      "description": "Ice Spanish Pecan 14 oz",
+      "price": 130
+    },
+    {
+      "id": "iced-coffee-37",
+      "name": "Ice Shaken 14 oz",
+      "category": "Iced Coffee",
+      "description": "Ice Shaken 14 oz",
+      "price": 135
+    },
+    {
+      "id": "iced-coffee-38",
+      "name": "Ice Shaken White Mocha 14 oz",
+      "category": "Iced Coffee",
+      "description": "Ice Shaken White Mocha 14 oz",
+      "price": 135
+    },
+    {
+      "id": "iced-coffee-39",
+      "name": "Ice Mocha 14 oz",
+      "category": "Iced Coffee",
+      "description": "Ice Mocha 14 oz",
+      "price": 125
+    },
+    {
+      "id": "iced-coffee-40",
+      "name": "Ice Salted Caramel 14 oz",
+      "category": "Iced Coffee",
+      "description": "Ice Salted Caramel 14 oz",
+      "price": 120
+    },
+    {
+      "id": "iced-coffee-41",
+      "name": "Iced Spanish Latte 14 oz",
+      "category": "Iced Coffee",
+      "description": "Iced Spanish Latte 14 oz",
+      "price": 120
+    },
+    {
+      "id": "iced-coffee-42",
+      "name": "Creamy Espresso 14 oz",
+      "category": "Iced Coffee",
+      "description": "Creamy Espresso 14 oz",
+      "price": 135
+    },
+    {
+      "id": "iced-non-coffee-43",
+      "name": "Peach Mojito 14 oz",
+      "category": "Iced Non-Coffee",
+      "description": "Peach Mojito 14 oz",
+      "price": 110
+    },
+    {
+      "id": "iced-non-coffee-44",
+      "name": "Passion  Mojito 14 oz",
+      "category": "Iced Non-Coffee",
+      "description": "Passion  Mojito 14 oz",
+      "price": 110
+    },
+    {
+      "id": "iced-non-coffee-45",
+      "name": "Mai Tai 14 oz",
+      "category": "Iced Non-Coffee",
+      "description": "Mai Tai 14 oz",
+      "price": 125
+    },
+    {
+      "id": "iced-non-coffee-46",
+      "name": "Mango Coconut 14 oz",
+      "category": "Iced Non-Coffee",
+      "description": "Mango Coconut 14 oz",
+      "price": 110
+    },
+    {
+      "id": "iced-non-coffee-47",
+      "name": "Lechee Rose Lemonade 14 oz",
+      "category": "Iced Non-Coffee",
+      "description": "Lechee Rose Lemonade 14 oz",
+      "price": 125
+    },
+    {
+      "id": "iced-non-coffee-48",
+      "name": "Fizzy Kiwi 14 oz",
+      "category": "Iced Non-Coffee",
+      "description": "Fizzy Kiwi 14 oz",
+      "price": 125
+    },
+    {
+      "id": "iced-non-coffee-49",
+      "name": "Fizzy Blue Ocean 14 oz",
+      "category": "Iced Non-Coffee",
+      "description": "Fizzy Blue Ocean 14 oz",
+      "price": 125
+    },
+    {
+      "id": "coffee-frappes-50",
+      "name": "Classic Frappe 14 oz",
+      "category": "Coffee Frappes",
+      "description": "Classic Frappe 14 oz",
+      "price": 105
+    },
+    {
+      "id": "coffee-frappes-51",
+      "name": "Salted Caramel Frappe 14 oz",
+      "category": "Coffee Frappes",
+      "description": "Salted Caramel Frappe 14 oz",
+      "price": 125
+    },
+    {
+      "id": "coffee-frappes-52",
+      "name": "Roasted Mocha Frappe 14 oz",
+      "category": "Coffee Frappes",
+      "description": "Roasted Mocha Frappe 14 oz",
+      "price": 135
+    },
+    {
+      "id": "coffee-frappes-53",
+      "name": "Pistachio Frappe 14 oz",
+      "category": "Coffee Frappes",
+      "description": "Pistachio Frappe 14 oz",
+      "price": 135
+    },
+    {
+      "id": "coffee-frappes-54",
+      "name": "Purple Buzz 14 oz",
+      "category": "Coffee Frappes",
+      "description": "Purple Buzz 14 oz",
+      "price": 120
+    },
+    {
+      "id": "coffee-frappes-55",
+      "name": "Peanut Frappe 14 oz",
+      "category": "Coffee Frappes",
+      "description": "Peanut Frappe 14 oz",
+      "price": 120
+    },
+    {
+      "id": "coffee-frappes-56",
+      "name": "Spanish Pecan 14 oz",
+      "category": "Coffee Frappes",
+      "description": "Spanish Pecan 14 oz",
+      "price": 120
+    },
+    {
+      "id": "non-coffee-frappes-57",
+      "name": "Mango Salted Frappe 14 oz",
+      "category": "Non-Coffee Frappes",
+      "description": "Mango Salted Frappe 14 oz",
+      "price": 110
+    },
+    {
+      "id": "non-coffee-frappes-58",
+      "name": "Creamy Pineapple Smothies 14 oz",
+      "category": "Non-Coffee Frappes",
+      "description": "Creamy Pineapple Smothies 14 oz",
+      "price": 110
+    },
+    {
+      "id": "non-coffee-frappes-59",
+      "name": "Lychee Smothies 12 14 oz",
+      "category": "Non-Coffee Frappes",
+      "description": "Lychee Smothies 12 14 oz",
+      "price": 125
+    },
+    {
+      "id": "milkshakes-60",
+      "name": "Oreo Shake 14 oz",
+      "category": "Milkshakes",
+      "description": "Oreo Shake 14 oz",
+      "price": 125
+    },
+    {
+      "id": "milkshakes-61",
+      "name": "blue Shake 14 oz",
+      "category": "Milkshakes",
+      "description": "blue Shake 14 oz",
+      "price": 125
+    },
+    {
+      "id": "milkshakes-62",
+      "name": "Red Shake 14 oz",
+      "category": "Milkshakes",
+      "description": "Red Shake 14 oz",
+      "price": 125
+    },
+    {
+      "id": "signature-drinks-63",
+      "name": "Pina Colada Latte 14 oz",
+      "category": "Signature Drinks",
+      "description": "Pina Colada Latte 14 oz",
+      "price": 145
+    },
+    {
+      "id": "signature-drinks-64",
+      "name": "Lab Berry Fusion 14 oz",
+      "category": "Signature Drinks",
+      "description": "Lab Berry Fusion 14 oz",
+      "price": 145
+    },
+    {
+      "id": "signature-drinks-65",
+      "name": "Coffee Citrus 14 oz",
+      "category": "Signature Drinks",
+      "description": "Coffee Citrus 14 oz",
+      "price": 135
+    },
+    {
+      "id": "signature-drinks-66",
+      "name": "B.A.S Coffee 14 oz",
+      "category": "Signature Drinks",
+      "description": "B.A.S Coffee 14 oz",
+      "price": 135
+    },
+    {
+      "id": "signature-drinks-67",
+      "name": "Red Coffee 14 oz",
+      "category": "Signature Drinks",
+      "description": "Red Coffee 14 oz",
+      "price": 135
+    },
+    {
+      "id": "hot-coffee-espresso",
+      "name": "Espresso",
+      "category": "Hot Coffee",
+      "description": "Espresso",
+      "price": 60,
+      "sizes": [
+        {
+          "size": 4,
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-espresso-macciatto",
+      "name": "Espresso Macciatto",
+      "category": "Hot Coffee",
+      "description": "Espresso Macciatto",
+      "price": 65,
+      "sizes": [
+        {
+          "size": 4,
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-cortado",
+      "name": "Cortado",
+      "category": "Hot Coffee",
+      "description": "Cortado",
+      "price": 75,
+      "sizes": [
+        {
+          "size": 4,
+          "price": 75
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-flat-white",
+      "name": "Flat White",
+      "category": "Hot Coffee",
+      "description": "Flat White",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-cafe-latte",
+      "name": "Cafe Latte",
+      "category": "Hot Coffee",
+      "description": "Cafe Latte",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 80
+        },
+        {
+          "size": 12,
+          "price": 90
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-cappuccino",
+      "name": "Cappuccino",
+      "category": "Hot Coffee",
+      "description": "Cappuccino",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 80
+        },
+        {
+          "size": 12,
+          "price": 90
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-dulce-de-leche",
+      "name": "Dulce de Leche",
+      "category": "Hot Coffee",
+      "description": "Dulce de Leche",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 115
+        },
+        {
+          "size": 12,
+          "price": 135
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-spanish-latte",
+      "name": "Spanish Latte",
+      "category": "Hot Coffee",
+      "description": "Spanish Latte",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 105
+        },
+        {
+          "size": 12,
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-salted-caramel-latte",
+      "name": "Salted Caramel Latte",
+      "category": "Hot Coffee",
+      "description": "Salted Caramel Latte",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 105
+        },
+        {
+          "size": 12,
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-biscof-mocha",
+      "name": "Biscof Mocha",
+      "category": "Hot Coffee",
+      "description": "Biscof Mocha",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 110
+        },
+        {
+          "size": 12,
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-toffee-white-mocha",
+      "name": "Toffee White Mocha",
+      "category": "Hot Coffee",
+      "description": "Toffee White Mocha",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 115
+        },
+        {
+          "size": 12,
+          "price": 135
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-rosted-scotch-latte",
+      "name": "Rosted Scotch Latte",
+      "category": "Hot Coffee",
+      "description": "Rosted Scotch Latte",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 115
+        },
+        {
+          "size": 12,
+          "price": 135
+        }
+      ]
+    },
+    {
+      "id": "hot-coffee-pistachio-latte",
+      "name": "Pistachio Latte",
+      "category": "Hot Coffee",
+      "description": "Pistachio Latte",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 120
+        },
+        {
+          "size": 12,
+          "price": 135
+        }
+      ]
+    },
+    {
+      "id": "hot-non-coffee-creamy-hot-choco",
+      "name": "Creamy Hot Choco",
+      "category": "Hot Non-Coffee",
+      "description": "Creamy Hot Choco",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 105
+        },
+        {
+          "size": 12,
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "hot-non-coffee-chai-latte",
+      "name": "Chai Latte",
+      "category": "Hot Non-Coffee",
+      "description": "Chai Latte",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 95
+        },
+        {
+          "size": 12,
+          "price": 110
+        }
+      ]
+    },
+    {
+      "id": "hot-non-coffee-classic-matcha",
+      "name": "Classic Matcha",
+      "category": "Hot Non-Coffee",
+      "description": "Classic Matcha",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 105
+        },
+        {
+          "size": 12,
+          "price": 125
+        }
+      ]
+    },
+    {
+      "id": "hot-non-coffee-matcha-coconut",
+      "name": "Matcha Coconut",
+      "category": "Hot Non-Coffee",
+      "description": "Matcha Coconut",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 125
+        },
+        {
+          "size": 12,
+          "price": 145
+        }
+      ]
+    },
+    {
+      "id": "hot-non-coffee-matcha-strawberry",
+      "name": "Matcha Strawberry",
+      "category": "Hot Non-Coffee",
+      "description": "Matcha Strawberry",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 125
+        },
+        {
+          "size": 12,
+          "price": 145
+        }
+      ]
+    },
+    {
+      "id": "hot-non-coffee-matcha-white-choco",
+      "name": "Matcha White Choco",
+      "category": "Hot Non-Coffee",
+      "description": "Matcha White Choco",
+      "sizes": [
+        {
+          "size": 8,
+          "price": 125
+        },
+        {
+          "size": 12,
+          "price": 145
+        }
+      ]
+    }
+  ]
+}

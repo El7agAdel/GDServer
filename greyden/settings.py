@@ -63,7 +63,8 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
      "corsheaders.middleware.CorsMiddleware",
-    # ...    
+     "whitenoise.middleware.WhiteNoiseMiddleware",
+	# ...    
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -77,7 +78,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173",
-    "http://192.168.1.100:5173",
+    "http://www.greydencoffee.com",
+    "https://www.greydencoffee.com",
 ]
 
 

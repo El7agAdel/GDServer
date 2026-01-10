@@ -33,7 +33,7 @@ class MenuItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = MenuItem
-        fields = ["id", "name", "description", "price_egp", "is_available", "sort_order"]
+        fields = ["id", "name", "description", "price_egp", "sizes", "is_available", "sort_order"]
         extra_kwargs = {"price_egp": {"required": False}}
 
 class MenuCategorySerializer(serializers.ModelSerializer):

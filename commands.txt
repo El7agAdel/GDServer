@@ -1,0 +1,21 @@
+python3 -m venv .venv
+source .venv/bin/activate
+
+
+pip install -r requirements.txt
+pip install whitenoise
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py collectstatic
+python3 manage.py import_menu_json --path menu.json --wipe
+
+python3 manage.py createsuperuser
+
+.venv/bin/python3 -m gunicorn greyden.wsgi:application --bind 127.0.0.1:8000
+.venv/bin/python3 -m gunicorn greyden.wsgi:application --bind 0.0.0.0:8000
+
+python3 manage.py runserver
+
+
+

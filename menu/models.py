@@ -14,6 +14,7 @@ class MenuItem(models.Model):
     name = models.CharField(max_length=120)
     description = models.TextField(blank=True)
     price_egp = models.PositiveIntegerField()   # avoid float money
+    sizes = models.JSONField(default=list, blank=True)
     is_available = models.BooleanField(default=True)
     sort_order = models.PositiveIntegerField(default=0)
 

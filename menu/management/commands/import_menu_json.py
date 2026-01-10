@@ -141,6 +141,8 @@ class Command(BaseCommand):
 
             # If your MenuItem model has description
             defaults["description"] = (d.get("description") or "").strip()
+            if hasattr(MenuItem, "sizes"):
+                defaults["sizes"] = d.get("sizes") or []
 
             obj, created = MenuItem.objects.update_or_create(
                 category=category_obj,
